@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "cryptoworkshopforkurius": {
+      "hosting": {
+        "kurius-crypto-app": [
+          "cryptoworkshopforkurius"
+        ]
+      }
+    }
+  }
+}

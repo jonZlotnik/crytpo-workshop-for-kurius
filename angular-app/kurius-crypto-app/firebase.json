@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "kurius-crypto-app",
+      "public": "dist/kurius-crypto-app",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
